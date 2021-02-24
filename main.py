@@ -1,7 +1,7 @@
 def hello_world():
     print("Hello Burgos")
-def cuenta():
-    for i in range(1,10):
+def cuenta(n):
+    for i in range(1,n):
         print(i)
 hello_world()
-cuenta()
+cuenta(5)
